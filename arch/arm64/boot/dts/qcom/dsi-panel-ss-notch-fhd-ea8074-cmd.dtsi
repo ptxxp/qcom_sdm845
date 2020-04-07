@@ -60,6 +60,8 @@
 		qcom,mdss-dsi-panel-dc-threshold = <320>;
 
 		qcom,ulps-enabled;
+		qcom,disp-doze-lbm-backlight = <10>;
+		qcom,disp-doze-hbm-backlight = <133>;
 		qcom,suspend-ulps-enabled;
 
 		qcom,mdss-dsi-display-timings {
